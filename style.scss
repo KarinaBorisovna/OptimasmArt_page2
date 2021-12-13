@@ -236,6 +236,9 @@ font-weight: 500;
 
 .services {
     margin-bottom: 50px;
+    background-color: #FFFDE4;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .services {
@@ -544,17 +547,24 @@ font-weight: 500;
 
 // ____________section links________________________
 .links {
+    background-color: #FFFDE4;
+    
+}
+
+.links {
 
     &__container {
         max-width: 90%;
+        padding-top: 40px;
+        padding-bottom: 40px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     &__list {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         list-style-type: none;
         text-align: center;
     }
